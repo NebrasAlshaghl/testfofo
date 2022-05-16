@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nebra\\OneDrive\\Desktop\\UNI\\y4-CLP\\5atri\\nc\\Plugins\\Nop.Plugin.Widget.FirstWidget\\Nop.Plugin.Widget.FirstPlugin.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nebra\\OneDrive\\Desktop\\UNI\\y4-CLP\\5atri\\nc\\Plugins\\Nop.Plugin.Widget.FirstWidget\\Nop.Plugin.Widget.FirstPlugin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nebra\\OneDrive\\Desktop\\UNI\\y4-CLP\\5atri\\nc\\Plugins\\Nop.Plugin.Widget.FirstWidget\\Nop.Plugin.Widget.FirstPlugin.csproj",
+        "projectName": "Nop.Plugin.Widget.FirstPlugin",
+        "projectPath": "C:\\Users\\Nebra\\OneDrive\\Desktop\\UNI\\y4-CLP\\5atri\\nc\\Plugins\\Nop.Plugin.Widget.FirstWidget\\Nop.Plugin.Widget.FirstPlugin.csproj",
+        "packagesPath": "C:\\Users\\Nebra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nebra\\OneDrive\\Desktop\\UNI\\y4-CLP\\5atri\\nc\\Plugins\\Nop.Plugin.Widget.FirstWidget\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nebra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

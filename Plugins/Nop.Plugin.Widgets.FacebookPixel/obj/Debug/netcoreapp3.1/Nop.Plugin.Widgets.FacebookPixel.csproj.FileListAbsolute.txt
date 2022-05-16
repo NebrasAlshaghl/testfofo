@@ -1,3 +1,9 @@
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.Views.dll
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.Views.pdb
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.deps.json
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.runtimeconfig.json
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.runtimeconfig.dev.json
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.exe
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\logo.png
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\plugin.json
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Views\Configuration\Configure.cshtml
@@ -5,12 +11,6 @@ C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Views\Configuration\Edit.cshtml
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Views\Configuration\_CreateOrUpdate.cshtml
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Views\_ViewImports.cshtml
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.Views.dll
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.Views.pdb
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.deps.json
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.runtimeconfig.json
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.runtimeconfig.dev.json
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.exe
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Plugin.Widgets.FacebookPixel.deps.json
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Plugin.Widgets.FacebookPixel.dll
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Plugin.Widgets.FacebookPixel.pdb

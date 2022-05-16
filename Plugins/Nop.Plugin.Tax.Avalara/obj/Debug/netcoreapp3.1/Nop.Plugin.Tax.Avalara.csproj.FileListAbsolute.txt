@@ -1,3 +1,9 @@
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.Views.dll
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.Views.pdb
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.deps.json
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.runtimeconfig.json
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.runtimeconfig.dev.json
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.exe
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\logo.png
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\plugin.json
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Views\Checkout\AddressValidation.cshtml
@@ -12,12 +18,6 @@ C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Views\Product\_ExportItemsForm.cshtml
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Views\Tax\Categories.cshtml
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Views\_ViewImports.cshtml
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.Views.dll
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.Views.pdb
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.deps.json
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.runtimeconfig.json
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.runtimeconfig.dev.json
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.exe
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Plugin.Tax.Avalara.deps.json
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Plugin.Tax.Avalara.dll
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Plugin.Tax.Avalara.pdb

@@ -1,0 +1,582 @@
+﻿    <None Remove="logo.png" />
+    <Content Include="logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Nop.Core\Nop.Core.csproj" />
+    <ProjectReference Include="..\..\Libraries\Nop.Services\Nop.Services.csproj" />
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+</Project>
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\{PLUGIN_OUTPUT_DIRECTORY}</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\ $(OutDir)" Targets="NopClear" />
+  31Widget.FirstWidget  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\{PLUGIN_OUTPUT_DIRECTORY}</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\ $(OutDir)" Targets="NopClear" />
+  Widget.DFirstWidget
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>Copyright © Nop Solutions, Ltd</Copyright>
+    <Company>Nop Solutions, Ltd</Company>
+    <Authors>Nop Solutions, Ltd</Authors>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://www.nopcommerce.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nopSolutions/nopCommerce</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your project. 
+    You need to set this parameter to true if your plugin has a nuget package 
+    to ensure that the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Content\facebookstyles.css" />
+    <None Remove="Content\Images\facebook_logo.png" />
+    <None Remove="logo.jpg" />
+    <None Remove="plugin.json" />
+    <None Remove="Views\Configure.cshtml" />
+    <None Remove="Views\PublicInfo.cshtml" />
+    <None Remove="Views\_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Content\facebookstyles.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Images\facebook_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Configure.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\PublicInfo.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\_ViewImports.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="3.1.4" />
+  </ItemGroup>
+
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  </Target>
+
+</Project>netcoreapp3.1<Copyright>Copyright © Nop Solutions, Ltd</Copyright>
+    <Company>Nop Solutions, Ltd</Company>
+    <Authors>Nop Solutions, Ltd</Authors>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://www.nopcommerce.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nopSolutions/nopCommerce</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>eed to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->eed to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+     <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />    LinbrariesCore.Configuration<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Copyright>SOME_COPYRIGHT</Copyright>
+        <Company>YOUR_COMPANY</Company>
+        <Authors>SOME_AUTHORS</Authors>
+        <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+        <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+        <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+        <OutDir>$(OutputPath)</OutDir>
+        <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+        <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+    </ItemGroup>
+    <!-- This target execute after "Build" target -->
+    <Target Name="NopTarget" AfterTargets="Build">
+        <!-- Delete unnecessary libraries from plugins path -->
+        <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+    </Target>
+</Project>  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  New.FirstPlugin
+  
+    
+    ..\..\Presentation\Nop.Web\Plugins\New.FirstPlugin    New.FirstPlugin
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  ..\..\Presentation\Nop.Web\Plugins\New.FirstPlugin  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  NEW.fIRSTew .FirsytPlugin<PropertyGroup>/
+  >
+  </pro/Project>New \FirstPlugin
+    <OutDir>$(OutputPath)</OutDir><<Project Sdk="Microsoft.NET.Sdk">
+      <PropertyGroup>
+    <TargetFramework>net6netcoreapp3.011</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\{PLUGIN_OUTPUT_DIRECTORY}</OutputPath>
+  </PropertyGroup>
+        <Copyright>SOME_COPYRIGHT</Copyright>
+        <Company>YOUR_COMPANY</Company>
+        <Authors>SOME_AUTHORS</Authors>
+        <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+        <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+        <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <OutputPath>..\..\Presentation\Nop.Web\Plugins\{PLUGIN_OUTPUT_DIRECTORY}</OutputPath>
+        <OutDir>$(OutputPath)</OutDir>
+        <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+                                <None Remove="logo.png" />
+    <Content Include="logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\{PLUGIN_OUTPUT_DIRECTORY}</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\ $(OutDir)" Targets="NopClear" />
+  31Widget.FirstWidget  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\{PLUGIN_OUTPUT_DIRECTORY}</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\ $(OutDir)" Targets="NopClear" />
+  Widget.DFirstWidget
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>Copyright © Nop Solutions, Ltd</Copyright>
+    <Company>Nop Solutions, Ltd</Company>
+    <Authors>Nop Solutions, Ltd</Authors>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://www.nopcommerce.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nopSolutions/nopCommerce</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your project. 
+    You need to set this parameter to true if your plugin has a nuget package 
+    to ensure that the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Content\facebookstyles.css" />
+    <None Remove="Content\Images\facebook_logo.png" />
+    <None Remove="logo.jpg" />
+    <None Remove="plugin.json" />
+    <None Remove="Views\Configure.cshtml" />
+    <None Remove="Views\PublicInfo.cshtml" />
+    <None Remove="Views\_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Content\facebookstyles.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Images\facebook_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Configure.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\PublicInfo.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\_ViewImports.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="3.1.4" />
+  </ItemGroup>
+
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  </Target>
+
+</Project>netcoreapp3.1<Copyright>Copyright © Nop Solutions, Ltd</Copyright>
+    <Company>Nop Solutions, Ltd</Company>
+    <Authors>Nop Solutions, Ltd</Authors>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://www.nopcommerce.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nopSolutions/nopCommerce</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>eed to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->eed to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+     <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />    LinbrariesCore.Configuration<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Copyright>SOME_COPYRIGHT</Copyright>
+        <Company>YOUR_COMPANY</Company>
+        <Authors>SOME_AUTHORS</Authors>
+        <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+        <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+        <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+        <OutDir>$(OutputPath)</OutDir>
+        <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+        <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+    </ItemGroup>
+    <!-- This target execute after "Build" target -->
+    <Target Name="NopTarget" AfterTargets="Build">
+        <!-- Delete unnecessary libraries from plugins path -->
+        <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+    </Target>
+</Project>  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  New.FirstPlugin
+  
+    
+    ..\..\Presentation\Nop.Web\Plugins\New.FirstPlugin    New.FirstPlugin
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  ..\..\Presentation\Nop.Web\Plugins\New.FirstPlugin  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  NEW.fIRSTew .FirsytPlugin<PropertyGroup>/
+  >
+  </pro/Project>New \FirstPlugin
+
+    
+    <ItemGroup>
+    <None Remove="logo.jpg" />
+    <None Remove="plugin.json" />
+    <None Remove="Views\Configure.cshtml" />
+    <None Remove="Views\_ViewImports.cshtml" />
+  </ItemGroup>  </ItemGroup>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Copyright>SOME_COPYRIGHT</Copyright>
+        <Company>YOUR_COMPANY</Company>
+        <Authors>SOME_AUTHORS</Authors>
+        <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+        <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+        <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+        <OutDir>$(OutputPath)</OutDir>
+        <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+        <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+    </ItemGroup>
+    <!-- This target execute after "Build" target -->
+    <Target Name="NopTarget" AfterTargets="Build">
+        <!-- Delete unnecessary libraries from plugins path -->
+        <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+    </Target>
+</Project>  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\PLUGIN_OUTPUT_DIRECTORY</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your    project. You need to set this parameter to true if your plugin has a nuget package to ensure that   the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  </Target></ItemGroup>
+    
+    <ItemGroup>
+    <None Remove="logo.jpg" />
+    <None Remove="plugin.json" />
+    <None Remove="Views\Configure.cshtml" />
+    <None Remove="Views\_ViewImports.cshtml" />
+  </ItemGroup>    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="logo.jpg" />
+      <None Remove="plugin.json" />
+      <None Remove="Views\Configure.cshtml" />
+      <None Remove="Views\_ViewImports.cshtml" />
+    
+     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType><PropertyGroup>
+    /
+    <ItemGroup>
+    <Content Include="logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Configure.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\_ViewImports.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>      

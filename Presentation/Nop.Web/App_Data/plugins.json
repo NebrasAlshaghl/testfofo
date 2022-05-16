@@ -70,6 +70,10 @@
     {
       "SystemName": "ExternalAuth.Facebook",
       "Version": "1.63"
+    },
+    {
+      "SystemName": "Payments.NewPayment",
+      "Version": "1.60"
     }
   ],
   "PluginNamesToUninstall": [],

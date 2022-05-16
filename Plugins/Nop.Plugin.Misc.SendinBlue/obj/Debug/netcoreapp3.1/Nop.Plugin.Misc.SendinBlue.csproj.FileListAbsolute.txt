@@ -1,3 +1,5 @@
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\SendinBlue.ClientV3.45.dll
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\SendinBlueMarketingAutomation.dll
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\Content\styles.css
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\logo.png
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\plugin.json
@@ -5,8 +7,6 @@ C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\Views\PublicInfo.cshtml
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\Views\_ViewImports.cshtml
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\RestSharp.dll
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\SendinBlue.ClientV3.45.dll
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\SendinBlueMarketingAutomation.dll
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\Nop.Plugin.Misc.SendinBlue.deps.json
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\Nop.Plugin.Misc.SendinBlue.dll
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Misc.SendinBlue\Nop.Plugin.Misc.SendinBlue.pdb

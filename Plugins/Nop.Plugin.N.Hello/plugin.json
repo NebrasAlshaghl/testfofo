@@ -1,0 +1,11 @@
+﻿{
+  "Group": "N",
+  "FriendlyName": "N",
+  "SystemName": "N.Hello",
+  "Version": "3.26",
+  "SupportedVersions": [ "4.30" ],
+  "Author": "Nebras team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.N.Hello.dll",
+  "Description": "This plugin allows to Print Hello world"
+}

@@ -1,11 +1,11 @@
 ﻿{
-  "Group": "Shipping rate computation",
-  "FriendlyName": "UPS (United Parcel Service)",
-  "SystemName": "Shipping.UPS",
-  "Version": "1.60",
+  "Group": "Widgets",
+  "FriendlyName": "Google Analytics ",
+  "SystemName": "Widgets.GoogleAnalytics",
+  "Version": "1.62",
   "SupportedVersions": [ "4.30" ],
-  "Author": "nopCommerce team",
+  "Author": "nopCommerce team, Nicolas Muniere",
   "DisplayOrder": 1,
-  "FileName": "Nop.Plugin.Shipping.UPS.dll",
-  "Description": "This plugin offers shipping rates by UPS"
+  "FileName": "Nop.Plugin.Widgets.GoogleAnalytics.dll",
+  "Description": "This plugin integrates with Google Analytics. It   keeps track of statistics about the visitors and eCommerce conversion   on your website"
 }

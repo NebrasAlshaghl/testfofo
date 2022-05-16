@@ -1,0 +1,11 @@
+﻿{
+  "Group": "New Group",
+  "FriendlyName": "New simple plugin",
+  "SystemName": "New.FirstPlugin",
+  "Version": "1.06",
+  "SupportedVersions": [ "4.30" ],
+  "Author": "Nebras",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.New.FirstPlugin.dll",
+  "Description": "This plugin is for testing"
+}

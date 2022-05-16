@@ -1,13 +1,13 @@
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\logo.png
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\plugin.json
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Views\Configure.cshtml
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Views\_ViewImports.cshtml
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.Views.dll
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.Views.pdb
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.deps.json
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.runtimeconfig.json
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.runtimeconfig.dev.json
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.exe
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\logo.png
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\plugin.json
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Views\Configure.cshtml
+C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Views\_ViewImports.cshtml
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Plugin.Shipping.ShipStation.deps.json
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Plugin.Shipping.ShipStation.dll
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Plugin.Shipping.ShipStation.pdb
