@@ -276,7 +276,6 @@ C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\refs\System.Xml.XPath.dll
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\refs\System.Xml.XPath.XDocument.dll
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\refs\WindowsBase.dll
-C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\netcoreapp3.1\Nop.Plugin.DiscountRules.CustomerRoles.csproj.AssemblyReference.cache
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\netcoreapp3.1\Nop.Plugin.DiscountRules.CustomerRoles.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\netcoreapp3.1\Nop.Plugin.DiscountRules.CustomerRoles.AssemblyInfoInputs.cache
 C:\Users\Nebra\OneDrive\Desktop\UNI\y4-CLP\5atri\nc\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\netcoreapp3.1\Nop.Plugin.DiscountRules.CustomerRoles.AssemblyInfo.cs

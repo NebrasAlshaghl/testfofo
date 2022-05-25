@@ -1,0 +1,19 @@
+﻿{
+  "Group": "Discount requirements",
+  "FriendlyName": "Customer has one of these affiliates assigned to him",
+  "SupportedVersions": [
+    "4.30"
+  ],
+  "Author": "Zulushack team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.DiscountRules.HasOneAffiliate.dll",
+  "Description": "This plugin allows you to configure discounts for customers who have one of a certain affiliate assigned to him",
+  "LimitedToStores": [],
+  "LimitedToCustomerRoles": [
+    3,
+    5
+  ],
+  "DependsOnSystemNames": [],
+  "SystemName": "DiscountRequirement.HasOneAffiliate",
+  "Version": "1.00"
+}

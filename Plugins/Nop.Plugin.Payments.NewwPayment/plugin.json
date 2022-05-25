@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Neww Payment methods",
+  "FriendlyName": "Neww Payment ",
+  "SystemName": "Payments.NewwPayment",
+  "Version": "1.60",
+  "SupportedVersions": [ "4.30" ],
+  "Author": "5atri team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Payments.NewwPayment.dll",
+  "Description": "This plugin allows paying with Neww Payment"
+}

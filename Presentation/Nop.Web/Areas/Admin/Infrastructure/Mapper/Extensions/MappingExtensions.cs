@@ -24,6 +24,7 @@ namespace Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions
         {
             //use AutoMapper for mapping objects
             return AutoMapperConfiguration.Mapper.Map<TDestination>(source);
+
         }
         
         /// <summary>

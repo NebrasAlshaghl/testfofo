@@ -74,6 +74,18 @@
     {
       "SystemName": "Payments.NewPayment",
       "Version": "1.60"
+    },
+    {
+      "SystemName": "Payments.NewwPayment",
+      "Version": "1.60"
+    },
+    {
+      "SystemName": "DiscountRequirement.HasOneAffiliate",
+      "Version": "1.00"
+    },
+    {
+      "SystemName": "DiscountRequirement.Store",
+      "Version": "1.24"
     }
   ],
   "PluginNamesToUninstall": [],

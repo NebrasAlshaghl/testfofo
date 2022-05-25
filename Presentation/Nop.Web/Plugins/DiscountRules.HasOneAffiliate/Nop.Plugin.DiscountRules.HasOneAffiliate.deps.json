@@ -8,14 +8,7 @@
       "TRACE",
       "DEBUG",
       "NETCOREAPP",
-      "NETCOREAPP3_1",
-      "NETCOREAPP1_0_OR_GREATER",
-      "NETCOREAPP1_1_OR_GREATER",
-      "NETCOREAPP2_0_OR_GREATER",
-      "NETCOREAPP2_1_OR_GREATER",
-      "NETCOREAPP2_2_OR_GREATER",
-      "NETCOREAPP3_0_OR_GREATER",
-      "NETCOREAPP3_1_OR_GREATER"
+      "NETCOREAPP3_1"
     ],
     "languageVersion": "8.0",
     "platform": "",
@@ -29,9 +22,9 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Nop.Plugin.Payments.NewPayment/1.0.0": {
+      "Nop.Plugin.DiscountRules.HasOneAffiliate/1.0.0": {
         "dependencies": {
-          "Nop.Web.Framework": "4.3.0",
+          "Nop.Web": "4.3.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -305,10 +298,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Nop.Plugin.Payments.NewPayment.dll": {}
+          "Nop.Plugin.DiscountRules.HasOneAffiliate.dll": {}
         },
         "compile": {
-          "Nop.Plugin.Payments.NewPayment.dll": {}
+          "Nop.Plugin.DiscountRules.HasOneAffiliate.dll": {}
         }
       },
       "AdvancedStringBuilder/0.1.0": {
@@ -2281,6 +2274,17 @@
           "lib/netstandard2.0/RedLockNet.SERedis.dll": {}
         }
       },
+      "RestSharp/106.11.7": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.7.0",
+            "fileVersion": "106.11.7.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
@@ -3652,7 +3656,6 @@
           "FluentMigrator.Runner": "3.2.6",
           "MySql.Data": "8.0.20",
           "Nop.Core": "4.3.0",
-          "System.Net.NameResolution": "4.3.0",
           "linq2db": "2.9.8"
         },
         "runtime": {
@@ -3680,6 +3683,21 @@
         },
         "compile": {
           "Nop.Services.dll": {}
+        }
+      },
+      "Nop.Web/4.3.0": {
+        "dependencies": {
+          "Nop.Core": "4.3.0",
+          "Nop.Data": "4.3.0",
+          "Nop.Services": "4.3.0",
+          "Nop.Web.Framework": "4.3.0",
+          "RestSharp": "106.11.7"
+        },
+        "runtime": {
+          "Nop.Web.dll": {}
+        },
+        "compile": {
+          "Nop.Web.dll": {}
         }
       },
       "Nop.Web.Framework/4.3.0": {
@@ -5328,7 +5346,7 @@
     }
   },
   "libraries": {
-    "Nop.Plugin.Payments.NewPayment/1.0.0": {
+    "Nop.Plugin.DiscountRules.HasOneAffiliate/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -6327,6 +6345,13 @@
       "path": "redlock.net/2.2.0",
       "hashPath": "redlock.net.2.2.0.nupkg.sha512"
     },
+    "RestSharp/106.11.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "path": "restsharp/106.11.7",
+      "hashPath": "restsharp.106.11.7.nupkg.sha512"
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",
       "serviceable": true,
@@ -7283,6 +7308,11 @@
       "sha512": ""
     },
     "Nop.Services/4.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nop.Web/4.3.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
